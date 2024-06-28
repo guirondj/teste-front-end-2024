@@ -1,0 +1,24 @@
+version: '3'
+services:
+  mf_drawer:
+    build: ./mf_drawer
+    ports:
+      - "3001:80"
+    volumes:
+      - ./mf_drawer:/usr/share/nginx/html
+    depends_on:
+      - bff
+
+  mf_videos:
+    build: ./mf_videos
+    ports:
+      - "3002:80"
+    volumes:
+      - ./mf_videos:/usr/share/nginx/html
+    depends_on:
+      - bff
+
+  bff:
+    build: ./bff
+    ports:
+      - "3000:3000"
