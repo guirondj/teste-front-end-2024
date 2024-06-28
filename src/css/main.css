@@ -1,0 +1,57 @@
+main{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(75, 74, 74, 0.663);
+}
+
+div{
+    margin: 10px 20px;
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.527);
+    border-radius: 15px;
+    
+}
+
+button{
+    width: 120px;
+    height: 30px;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    text-align: center;
+    align-items: center;
+}
+
+.fav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.videos{
+    width: 85%;
+    text-align: center;
+    align-items: center;
+}
+
+.videos input{
+    width: 300px;
+    height: 30px;
+    border-radius: 15px;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.video{
+    width: 250px;
+    height: 250px;
+}
