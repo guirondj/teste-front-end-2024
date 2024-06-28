@@ -3,7 +3,7 @@ import fetch from 'node-fetch';
 const app = express();
 const port = 3000;
 
-const YOUTUBE_API_KEY = 'AIzaSyDRCvpg52qAjiiUrf8Td6NczMw0pZCFazQ'; 
+const YOUTUBE_API_KEY = 'No comentario ao lado'; // chave de autorização = AIzaSyDRCvpg52qAjiiUrf8Td6NczMw0pZCFazQ 
 
 app.get('/search', async (req, res) => {
     const query = req.query.q;
