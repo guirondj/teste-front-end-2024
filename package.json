@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "dev": "nodemon src/javascript/server.js "
+    "dev": "nodemon src/javascript/serve.js "
   },
   "dependencies": {
     "express": "^4.19.2",
