@@ -3,10 +3,17 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "dev": "nodemon src/javascript/server.js "
   },
   "dependencies": {
     "express": "^4.19.2",
     "node-fetch": "^2.6.1"
+  },
+  "repository": "https://github.com/guirondj/teste-front-end-2024.git",
+  "author": "LucasGuiron <lucasguirondj@hotmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "sucrase": "^3.35.0"
   }
 }
