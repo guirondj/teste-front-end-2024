@@ -8,13 +8,19 @@
 </head>
 <body>
     <div class="drawer-container">
+        
         <nav>
             <ul>
-                <li><a href="/videos">VÍDEOS</a></li>
-                <li><a href="/favoritos">FAVORITOS</a></li>
+                <li><a onclick="vid()" href="/videos">VÍDEOS</a></li>
+                <li><a onclick="fav()" href="/favoritos">FAVORITOS</a></li>
             </ul>
         </nav>
     </div>
-    <script defer src="src/javascript/mf-drawer.js"></script>
+
+    <div id="videos-container" class="videos-container">
+
+    </div>
+    <script defer src="src/javascript/mf-drawer.js" defer></script>
+    <script src="src/javascript/rotas.js" defer></script>
 </body>
 </html>

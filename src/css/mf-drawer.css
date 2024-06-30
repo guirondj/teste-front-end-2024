@@ -10,7 +10,7 @@ body {
     background-color: #333;
     height: 100vh;
     color: #fff;
-    position: fixed;
+    position:fixed;
     top: 0;
     left: 0;
 }
@@ -29,4 +29,14 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     display: block;
+}
+
+.videos-container{
+    border: 1px yellow solid;
+    width: 87%;
+    height: 100vh;
+    background-color: #333;
+    position:fixed;
+    top: 0;
+    right: 0;
 }

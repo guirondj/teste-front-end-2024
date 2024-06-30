@@ -1,7 +1,7 @@
 {
   "name": "bff",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "serve.js",
   "scripts": {
     "dev": "nodemon src/javascript/serve.js "
   },
